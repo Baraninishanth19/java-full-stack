@@ -1,0 +1,51 @@
+ 
+ @font-face {
+    font-family: "Poppins-Regular";
+    src: url("../Poppins_Complete/Fonts/TTF/Poppins-Variable.ttf");
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ .para1{
+    color:blueviolet;
+    
+    
+}
+#para_1_id{
+    color:aquamarine;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+p{
+    color:brown;
+    font-size: 18px;
+     font-family:Poppins-Regular;
+     font-weight: 900;
+     font-style: italic;
+     line-height: 50px;
+     text-align:center;
+     text-transform: capitalize;
+     
+     
+   
+}
+button{
+    color:darkblue;
+}
+h1{
+    color:darkslategray;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 4em;
+    text-align: center;
+    text-decoration: underline dashed red;
+    
+}
+
+/* *{
+
+    color:azure;
+}
+*/

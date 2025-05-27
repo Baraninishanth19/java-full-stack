@@ -1,0 +1,30 @@
+p{
+    color: rgb(19, 19, 19);
+    
+}
+.container{
+    background-color: red;
+    height: 1000px;
+    width: 200px;
+    background-image: url("../html/sorry.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity:1;
+    
+    
+
+}
+.padding{
+    width: 60px;
+    height:60px;
+    background-color: blueviolet;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    border : 10px double white;
+    border-radius: 500px;
+    border-bottom-left-radius: 150px;
+   
+    margin: 500px;
+}
