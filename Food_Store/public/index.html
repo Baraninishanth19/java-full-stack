@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="./style.css">
+      <script src="https://cdn.tailwindcss.com"></script>
+  <!-- tailwind link  -->
+     
+    <title>Food_Store</title>
+</head>
+<body>
+  <nav class="sticky top-0 bg-white">
+    <div class="2xl:container mx-auto">
+      <div class="w-[90%] mx-auto grid grid-cols-2">
+        <div class="">
+          <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-munch-img.png" class="food-munch-logo w-[80px]"></div>
+          <ul class=" hidden lg:flex gap-5 items-center justify-end">
+            <li class="text-nowrap"><a href="#choose"> Why Choose Us ?</a></li>
+            <li class="text-nowrap"><a href="#explore">Explore Menu</a></li>
+            <li class="text-nowrap"><a href="#payment">Delivery & Payment</a></li>
+            <li class="text-nowrap"><a href="#follow">Follow Us</a></li>
+          </ul>
+          <div class="lg:hidden flex justify-end items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-align-justify-icon lucide-align-justify"><path d="M3 12h18"/><path d="M3 18h18"/><path d="M3 6h18"/></svg></div>
+
+        
+      </div>
+    </div>
+  </nav>
+
+  <div class="2xl:container mx-auto  bg-[url('https://ik.imagekit.io/nish2005/food%20project/foodmunch-banner-bg.png?updatedAt=1749288594924')] bg-cover  h-screen bg-center ">
+    
+    <div class="w-[85%] mx-auto flex flex-col justify-center items-center h-screen">
+    
+    
+    
+      <h1 class="text-[white] text-[50px] ">Get Delicious Food Anytime</h1>
+      <p class="text-[white] text-[40px] ">Eat smart & Healthy</p>
+      <div class="flex flex-row justify-center gap-5 mt-5"><button class="bg-[#c3a700] px-5 py-3 rounded-2xl text-[grey]"> View Menu</button>
+      <button class="border-[#c3a700] border-[1px] text-[#c3a700] px-5 py-3 rounded-2xl">Order Now </button></div>
+
+
+    </div>
+  </div>
+
+  
+   <div class="2xl:container mx-auto" id="choose">
+      <div class="w-[85%] mx-auto">
+       <!-- why choose us? start -->
+         <section class="py-28">
+    <div>
+ <h1 class="text-[28px] text-[#183b56] font-[700] leading-[34px]"> Why Choose Us?</h1>
+ <p class="text-slate-500"> We use both original recipes and classic versions of food items.</p>
+        </div>
+<!-- why choose us?card start -->
+ <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 pt-8">
+    <!-- card 1 -->
+        <div class="p-8 rounded-lg bg-white shadow-2xl space-y-3">
+        <img src="https://ik.imagekit.io/eeb5gzlsu/gk/food-serve.png?updatedAt=1748951676956" alt="card 1" class="mx-auto">
+        <h1 class="text-xl text-center"> Food Services</h1>
+<p class="text-slate-500 text-lg">Experience fine dining at the comfort of your home. 
+    All our orders are carefully packed and arranged to give you the nothing less than perfect.</p>
+        <div class="flex justify-center gap-5">
+        <button class="py-3 px-6 rounded-lg bg-[#16A34A] text-white">Submit</button>
+        <button class="py-3 px-6 rounded-lg border border-red-600">Cancel</button>
+
+    </div>
+       </div>   <!-- card 2 -->
+    <div class="p-8 rounded-lg bg-white shadow-2xl space-y-3">
+<img src="https://ik.imagekit.io/nish2005/food%20project/fruits-img.png?updatedAt=1749284924688" alt="card 1" class="mx-auto">
+<h1 class="text-xl text-center">Fresh Food</h1>
+<p class="text-slate-500 text-lg">The Fresh Food group provides fresh-cut fruits and vegetables directly picked from our partner farms and farm houses so that you always get them tree to plate.</p>
+    <div class="flex justify-center gap-5">
+        <button class="py-3 px-6 rounded-lg bg-[#16A34A] text-white">Submit</button>
+                <button class="py-3 px-6 rounded-lg border border-red-600">Cancel</button>
+
+    </div>
+       </div>   <!-- card 3 -->
+    <div class="p-8 rounded-lg bg-white shadow-2xl space-y-3">
+            <img src="https://ik.imagekit.io/nish2005/food%20project/offers-img.png?updatedAt=1749284923691" alt="card 1" class="mx-auto">
+            <h1 class="text-xl text-center">Best Offers</h1>
+            <p class="text-slate-500 text-lg">Food Coupons & Offers upto 50% OFF and Exclusive Promo Codes on All Online Food Orders.</p>
+             <div class="flex justify-center gap-5">
+           <button class="py-3 px-6 rounded-lg bg-[#16A34A] text-white">Submit</button>
+            <button class="py-3 px-6 rounded-lg border border-red-600">Cancel</button>
+
+    </div>
+       </div>
+   </div>
+    
+ <!-- why choose us?card end -->
+         </section>
+        <!-- Why choose us? end-->
+
+        <!-- Explore menu Start -->
+         <section class="py-28" id="explore">
+            <div >
+            <h1 class="text-[28px] text-[#183b56] font-[700] leading-[34px]">Explore Menu</h1>
+            </div>
+            <div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 pt-5 gap-5">
+                    <!-- card 1 -->
+                    <div class="p-5 rounded-[16px] shadow-2xl">
+                          <img src="https://ik.imagekit.io/eeb5gzlsu/gk/em-ginger-fried-img.png?updatedAt=1748951735620" alt="menu_card " class="rounded-[16px]" >
+                    <h1 class="text-lg py-2">Non-Veg Starters</h1>
+                    <p class="text-[#D1B200] flex items-center gap-2 hover:text-[#2986D5] hover:underline">
+                        View All
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      width="1em"
+      height="1em"
+      {...props}
+    >
+      <path
+        fill="currentColor"
+        d="m12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+      ></path>
+    </svg>
+
+
+                        
+                    </p>
+                </div>
+                     <!-- card 2 -->
+                    <div class="p-5 rounded-[16px] shadow-2xl">
+                          <img src="https://ik.imagekit.io/nish2005/food%20project/em-veg-starters-img.png?updatedAt=1749284927347" alt="menu_card " class="rounded-[16px]" >
+                    <h1 class="text-lg py-2">Veg Starters</h1>
+                    <p class="text-[#D1B200] flex items-center gap-2 hover:text-[#2986D5] hover:underline">
+                        View All
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      width="1em"
+      height="1em"
+      {...props}
+    >
+      <path
+        fill="currentColor"
+        d="m12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+      ></path>
+    </svg>
+
+
+                        
+                    </p>
+                </div>
+                     <!-- card 3 -->
+                    <div class="p-5 rounded-[16px] shadow-2xl">
+                          <img src="https://ik.imagekit.io/nish2005/food%20project/em-hyderabadi-biryani-img.png?updatedAt=1749284925220" alt="menu_card " class="rounded-[16px]" >
+                    <h1 class="text-lg py-2">Biriyani</h1>
+                    <p class="text-[#D1B200] flex items-center gap-2 hover:text-[#2986D5] hover:underline">
+                        View All
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      width="1em"
+      height="1em"
+      {...props}
+    >
+      <path
+        fill="currentColor"
+        d="m12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+      ></path>
+    </svg>
+
+
+                        
+                    </p>
+                </div>
+                  <!-- card 4 -->
+                    <div class="p-5 rounded-[16px] shadow-2xl">
+                          <img src="https://ik.imagekit.io/nish2005/food%20project/em-grilled-seafood-img.png?updatedAt=1749284924046" alt="menu_card " class="rounded-[16px]" >
+                    <h1 class="text-lg py-2">Sea Foods</h1>
+                    <p class="text-[#D1B200] flex items-center gap-2 hover:text-[#2986D5] hover:underline">
+                        View All
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      width="1em"
+      height="1em"
+      {...props}
+    >
+      <path
+        fill="currentColor"
+        d="m12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+      ></path>
+    </svg>
+
+
+                        
+                    </p>
+                </div>
+                
+
+                </div>
+            </div>
+
+         </section>
+        <!-- Explore menu end -->
+
+        <!-- fresh healthy start -->
+         <section class="">
+            <div class="grid grid-cols-1 md:grid-cols-3 ">
+                <div>
+                    <img src="https://ik.imagekit.io/eeb5gzlsu/gk/healthy-food-plate-img.png?updatedAt=1748951827764" alt="healthy">
+                </div>
+                <div class="col-span-2 flex flex-col justify-center gap-5">                 
+ <h1 class="text-[28px] text-[#183b56] font-[700] leading-[34px]">Fresh, Healthy, Organic, Delicious Fruits</h1>
+ <p class="text-slate-500"> Say no to harmful chemicals and go fully organic with our range of fresh fruits and veggies. Pamper your body and your senses with the true and unadulterated gifts from mother nature. 
+    with the true and unadulterated gifts from mother nature.</p>
+    <button class="py-3 px-6 rounded-lg w-fit bg-[#C6AA00] text-white">Watch Videos</button>
+                </div>
+            </div>
+
+         </section>
+        <!-- fresh healthy end -->
+
+        <!-- delivery payment -->
+         <section class="py-28" id="payment">
+            <div class="grid grid-cols-1 md:grid-cols-3">
+                <div class="col-span-2">
+                 <div class="col-span-2 flex flex-col justify-center gap-5 pt-2">                 
+ <h1 class="text-[28px] text-[#183b56] font-[700] leading-[34px]">Delivery and Payment</h1>
+ <p class="text-slate-500"> 
+    Enjoy hassle-free payment with the plenitude of payment options available for you. Get live tracking and locate your food on a live map. It's quite a sight to see your food arrive to your door. Plus, you get a 5% discount on every order every time you pay online.
+ </p>
+    <button class="py-3 px-6 rounded-lg w-fit bg-[#C6AA00] text-white">Order Now</button>
+                </div>
+                <div class="flex gap-5">
+                   <img src="https://ik.imagekit.io/eeb5gzlsu/gk/visa-card-img.png?updatedAt=1748952180523" alt="visa" class="h-[60px]">
+                    <img src="https://ik.imagekit.io/eeb5gzlsu/gk/master-card-img.png?updatedAt=1748951851932" alt="visa" class="h-[60px]">
+                     <img src="https://ik.imagekit.io/eeb5gzlsu/gk/american-express-img.png?updatedAt=1748951897586" alt="visa" class="h-[60px]">
+
+                </div>
+                
+            </div>
+            <div class="flex items-center justify-center">
+                    <img src="https://ik.imagekit.io/eeb5gzlsu/gk/delivery-payment-section-img.png?updatedAt=1748951839465" alt="payment" class="h-[250px]">
+                </div>
+            </div>
+         </section>
+              <!-- delivery payment -->
+               
+
+
+      </div>
+   </div>
+   <section class="py-28">
+    <div class="2xl:container mx-auto h-[400px] bg-[#e4e4537e]">
+      <div class="w-[90%] mx-auto flex flex-row justify-evenly">
+      <div class="mt-10"><h1 class="text-[28px] text-[navy] font-black"> Thank You For Being Valuable Customer For Us</h1>
+      <p> We have a suprise gift for you</p>
+    <button class="bg-[#C6AA00] rounded-lg p-2">order now</button> </div>
+      <div>
+        <img src="https://ik.imagekit.io/nish2005/food%20project/thanking-customers-section-img.png?updatedAt=1749361198449" class="w-[300px] mt-10"> 
+      </div>
+    </div>
+    <div class="2xl:container flex flex-col  justify-centre items-center gap-3  bg-white h-[100px]  " id="follow">
+    <div class=" w-[90%] text-[28px] flex flex-row items-center justify-center font-bold font-[poppins]"> <p>Follow us</p></div>
+      <div class="flex flex-row justify-centre gap-2 ">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-facebook-icon lucide-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-twitter-icon lucide-twitter"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram-icon lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+      </div>
+    
+    
+    
+    
+    
+    
+    
+    </div>
+    </div>
+   </section>
+
+
+   <footer>
+    <section class="py-10">
+    <div class="2xl:container mx-auto h-[150px] bg-[#06062c]">
+
+      <div class="w-[90%] mx-auto">
+        <div class="text-[white] flex flex-col  justify-center items-center justify-evenly"> <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-munch-img.png" class="food-munch-logo w-[80px]"> 
+          <p>orderfood@foodmunch.com</p>
+          <p>962,Balaji nagar,kumbakonam</p>
+        </div>
+      </div>
+    </div>
+    </section>
+    </footer>
+   
+</body>
+</html>  

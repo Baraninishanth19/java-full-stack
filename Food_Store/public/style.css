@@ -1,0 +1,6 @@
+.small{
+    text-transform: capitalize;
+}
+*{
+    scroll-behavior: smooth;
+}
